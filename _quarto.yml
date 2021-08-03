@@ -1,0 +1,23 @@
+project:
+  type: site
+
+site:
+  # title: "RStudio Workbench Administration {{< var version >}}"
+
+  navbar:
+    type: light
+    title: "RStudio Workbench Administration {{</ var version />}}"
+
+  sidebar:
+    title: "{{< var version >}}"
+    contents:
+      - getting_started.qmd
+      
+
+
+number-depth: 2
+
+format:
+  html:
+    theme:
+      - cosmo
